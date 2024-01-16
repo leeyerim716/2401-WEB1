@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- # : 임시링크 -->
+    <!-- 링크 클릭했을 때 일반적으로 보던 창에서 링크로 넘어감
+    =새 창이 생기지 않음 -->
+
+    <a href="#">텍스트</a>
+    <br>
+    <a href="https://www.naver.com/">네이버</a> 
+    <!-- =타겟 셀프 -->
+
+    <!-- alt + 방향키 위아래로 줄단위 위치변경 가능 -->
+    <br>
+
+    <!-- self & blank 를 제일 많이 사용 -->
+
+    <!-- line12와 똑같이 작동 -->
+    <a href="https://www.naver.com/" target="_self" >셀프(기본값)</a>
+    <br>
+    <!-- 새로ㅗ운 탭을 열어 페이지 로드 -->
+    <a href="https://www.naver.com/" target="_blank" >블랭크(새창)</a>
+    <br>
+    <!-- iframe 태그와 함께 사용해야 하는 속성으로 
+         iframe의 부모 페이지에 로드됨-->
+    <a href="https://www.naver.com/" target="_parent" ></a>
+    <br>
+    <!-- iframe이 이중 이상 중복되었을 때 사용 -->
+    <!-- 최상위 웹페이지에 로드 -->
+    <a href="https://www.naver.com/" target="_top" ></a>
+
+    <!-- iframe 태그는 웹사이트 안에 다른 웹사이트를 넣을 때 사용 -->
+    <!-- 일반적으로 구글 애드센스나 유튜브 영상 공유등에서 볼 수 있는 태그 -->
+
+    <iframe src="iframe.html" frameborder="1"></iframe>
+
+    <!-- 유튜브 영상 가져오기 : 소스코드 복사 -->
+    <br>
+
+    <!-- 전화앱으로 연결 -->
+    <a href="tel:114">114에 전화하기</a>
+    <!-- 문자앱으로 연결 -->
+    <a href="sms:010-1234-1234">문자메세지 보내기</a>
+    <!-- 메일앱으로 연결 -->
+    <a href="mailto:fsakjwni@naver.com">관리자에게 메일 보내기</a>
+
+</body>
+</html>
