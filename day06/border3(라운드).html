@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .round-box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+
+            /* 테두리를 둥글게 만들어주는 속성 */
+            /* 수치는 2~8정도가 적당 */
+            /* 너무 높게 주면 디자인이 과하게 귀여워짐 */
+            border-radius: 2px;
+        }
+
+        .one-side-round {
+            width: 200px;
+            height: 200px;
+            background-color: aquamarine;
+            border-radius: 4px;
+            border-bottom-right-radius: 100px;
+            border: 1px solid green;
+
+        }
+    </style>
+</head>
+<body>
+
+    <div class="round-box"></div>
+   
+    <br>
+
+    <div class="one-side-round"></div>
+
+</body>
+</html>
