@@ -37,6 +37,28 @@
 
         .test1 {
             height: 500px;
+
+            /* 흐름 방향 정렬 */
+            justify-content:end ;
+            /* flex-start :흐름 시작쪽으로 */
+
+            /* center : 흐름 중앙 */
+            /* flex-end : 흐름 끝쪽으로 */
+            /* space-between : 첫번째 개체와 마지막 개체를 양 끝에 붙이고
+                               나머지 개체는 동일한 여백으로 배치
+                               ex. 부모 가로가 1000, 100짜리 자식 박스 4개
+                                   (부모 가로 - 컨텐츠 총 가로)/여백개수 여백은 각 200*/
+
+
+            /* space-around : 모든 개체 양쪽에 여백을 동일하게 나눠주는 방식 (잘 안 씀) */
+            /* space-evenly : 모든 여백을 동일한 크기로 설정 (호환성 이슈가 있음) */
+
+            /* 흐름 수직방향 정렬 */
+            align-items:center ;
+            /* flex-start (기본값) */
+
+            /* center */
+            /* fleax-end */
         }
     </style>
 </head>
