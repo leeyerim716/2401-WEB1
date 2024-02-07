@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        * {
+        *{
             margin: 0;
             padding: 0;
         }
@@ -28,7 +28,7 @@
         .border-box {
             width: 400px;
             height: 200px;
-            background-color: aqua;
+            background-color: aquamarine;
             padding: 32px;
             border: 2px solid green;
 
@@ -41,9 +41,9 @@
     <div class="padding-box"></div>
     <div class="border-box"></div>
 
-    <!-- BOX-SIZING 속성은 CSS 박스 모델의 사이즈 기준을 설정하는 속성 -->
-    <!-- 예를들어  WIDTH 400PX일 때 기본값() -->
-
-
+    <!-- box-sizing : css 박스 모델의 사이즈 기준을 설정하는 속성 -->
+    <!-- ex. width 400px 일 때 기본값(content-box)은 컨텐츠 영역을 400px, 패딩과 보더를 그 위에 얹는 방식 -->
+    <!-- width 400px일 때 border-box는 패딩과 보더를 합한 값을 400으로 정해놓고 컨텐츠 영역을 줄이는 방식 -->
+    <!-- 우리는 테두리까지의 크기를 개체의 크기로 인식하기 때문에 border-box를 쓰는게 훨씬 직관적이다 -->
 </body>
 </html>
