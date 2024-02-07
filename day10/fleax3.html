@@ -23,6 +23,12 @@
             border-radius: 50%;
 
             flex-shrink: 0;
+            /* shrink : 수축 */
+            /* 1은 한다 0은 안 한다 */
+            /* flex-shrink : 0 = 수축하지 않는다 */
+            /* 위 속성으로 컨텐츠가 수축하는 것을 막을 수 있다 */
+
+            /* grow 와동일하게 비율로 계산해서 수축하게 할 수 있다 */
             
         }
 
@@ -82,6 +88,32 @@
         </div>
         <button class="subs-button">구독하기</button>
     </div>
+
+    <!-- align item : 상 중 하 표현 -->
+    <!-- flex 관련 속성 -->
+    <!-- shrink / grow / basis -->
+
+    <!-- shrink : 수축 -->
+    <!-- grow : 늘어남 -->
+    <!-- basis : 기본 크기 지정 -->
+
+    <!-- 그러면 flex-basis 와 width 의 차이점이 뭔가? -->
+
+    <!-- 
+        case1. flex-direction 이 row 가 아니라 colum 일 때
+
+        case2. width는 무조건 고정, flex-basis는 최솟값
+        근데 min-width 라는 속성 또한 최솟값
+     -->
+
+     <!-- flex : 2 1 50% 이런식으로도 작성할 수 있다
+
+          flex-grow : 2
+          flex-shrink :1
+          flex-basis : 50%
+          와 같다
+    
+    -->
 
 </body>
 </html>
