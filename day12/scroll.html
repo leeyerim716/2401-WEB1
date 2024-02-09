@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .scroll-box {
+            overflow: scroll;
+            /* 이런식으로 overflow 자체에 scroll 속성을
+            넣어버리면 x,y 양방향 스크롤이 생기는 문제가 있다 */
+            width: 200px;
+            height: 200px;
+        }
+
+        .scroll-y-box {
+            width: 200px;
+            height: 200px;
+            overflow-y: scroll;
+            /* overflow-y : auto;
+               글씨가 많으면 알아서 스크롤이 생기고
+               적으면 안 생김 */
+        }
+    </style>
+</head>
+<body>
+    <div class="scroll-box">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Quod impedit possimus et unde. Culpa id ea nesciunt quos! 
+        Quae officiis incidunt maxime asperiores iure modi obcaecati quisquam natus totam saepe.
+    </div>
+
+    <div class="scroll-y-box">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+        Quod impedit possimus et unde. Culpa id ea nesciunt quos! 
+        Quae officiis incidunt maxime asperiores iure modi obcaecati quisquam natus totam saepe.
+    </div>
+    </div>
+</body>
+</html>
